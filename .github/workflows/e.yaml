@@ -11,5 +11,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      run: echo "This is test"
+      - run: echo "This is test"
 
