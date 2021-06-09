@@ -1,0 +1,15 @@
+name: n dir pull request path test
+
+on:
+  push:
+    paths:
+      - n/**
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    stesps:
+      run: echo "This is test"
+
