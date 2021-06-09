@@ -10,6 +10,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    stesps:
+    steps:
       run: echo "This is test"
 
