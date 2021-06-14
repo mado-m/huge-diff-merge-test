@@ -3,6 +3,7 @@ name: k dir pull request path test
 on:
   push:
     paths:
+      - _EDIT_TO_BUILD
       - k/**
     branches:
       - master

@@ -3,6 +3,7 @@ name: e dir pull request path test
 on:
   push:
     paths:
+      - _EDIT_TO_BUILD
       - e/**
     branches:
       - master
